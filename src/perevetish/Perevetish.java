@@ -30,7 +30,15 @@ public class Perevetish {
         String rStr = new String(rChStr);
         System.out.println("Перевертыш: " + rStr);
         
-        
+        int firstSpace = str.indexOf(" ");
+        int secondSpace = str.indexOf(" ", firstSpace+1);
+        if(firstSpace < 0) {
+            System.out.println("Второго слова нет");
+        }
+        else if(secondSpace < 0){
+            System.out.println("Второе слово" + str.substring(firstSpace));
+            
+        }
         
         
        
