@@ -40,6 +40,14 @@ public class Perevetish {
             
         }
         
+        System.out.println("Второй способ решения:");
+        String[] arrWords = str.split(" ");
+        if(arrWords.length > 1 && arrWords[1] != null){
+            System.out.println("Второе слово: " + arrWords[1]);
+        }else{
+            System.out.println("Нет второго слова");
+        }
+        
         
        
       
